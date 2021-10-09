@@ -1,0 +1,85 @@
+body{
+    background-color: #D9EFE9;
+    text-align: center;
+  }
+  #title{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: monospace;
+    letter-spacing: 10px;
+    color: #0F6B54;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 1px #bbb,
+                0 2px 0 #999, 
+                0 3px 0 #888, 
+                0 4px 0 #777, 
+                0 5px 0 #666, 
+                0 6px 0 #555, 
+                0 7px 0 #444, 
+                0 8px 0 #333, 
+                0 9px 7px #302314;
+  }
+  #img-caption{
+    font-size: 1.5rem;
+    font-family: monospace;
+    margin-bottom: 60px;
+  }
+  img{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  #img-desc{
+    font-size: 1.2rem;
+    font-family: monospace;
+    padding-bottom: 10px;
+  }
+  #img-div{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 97%;
+    box-shadow: 20px 30px 40px #888888;
+  }
+  ul{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+  }
+  li{
+      margin-bottom: 30px;
+      line-height: 1.5;
+  }
+  blockquote{
+      max-width: 50%;
+      margin-right: auto;
+      margin-left: auto;
+      height: auto;
+      line-height: 1.5;
+  }
+  #tribute-info{
+    font-size: 1.5rem;
+    font-family: monospace;
+    margin-top: 20px;
+  }
+  a{
+    background-size: 100% 200%;
+    transition: all 0.1s;
+    color: #333;
+    background-image: linear-gradient(to top, #333 50%, 50%);
+  }
+  a:hover{
+    background-position: 0 100%; 
+	color: #fff; 
+  }
